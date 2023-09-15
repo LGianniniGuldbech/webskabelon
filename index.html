@@ -1,11 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<center>
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>Min hjemmeside</title>
+	
+
 </head>
 <body>
+	<div class="topnav">
+		<a class="active" href="">Hjem</a>
+		<a href="pages/about.html">Om mig</a>
+		<a href="pages/video.html">Video</a>
+		<a href="pages/wishes.html">Ønsker</a>
+		<a href="pages/maps.html">Kort</a>
 
+	</div>
+
+
+</img>
+
+	  <h1>Lucas' hjemmeside 
+		<br>
+		<br>
+	  </h1> 
+
+
+<h2>Countdown til studietur</h2>
+
+
+<!--Til studietur start-->
+<p id="demo"></p>
+
+<script>
+var countDownDate = new Date("Feb 26, 2024 8:15:00").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "STUDIETUR STARTET";
+  }
+}, 1000);
+</script>
+
+<h2>Countdown til efterårsferie 2023</h2>
+<!--Til efterårsferie-->
+<p id="demo2"></p>
+
+<script>
+var countDownDate2 = new Date("Oct 13, 2023 15:30:00").getTime();
+
+var y = setInterval(function() {
+
+  var now = new Date().getTime();
+
+  var distance = countDownDate2 - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("demo2").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(y);
+    document.getElementById("demo2").innerHTML = "EFTERÅRSFERIE PÅBEGYNDT";
+  }
+}, 1000);
+</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="billeder">
+	<img class="polaroid" src="images/summer1.jpg" alt="summer 1">
+	<img class="polaroid" src="images/summer2.jpg" alt="summer 2">
+	<img class="polaroid" src="images/summer3.jpg" alt="summer 3">
+	<img class="polaroid" src="images/summer4.jpg" alt="summer 4">
+</div>
+
+</center>
 </body>
 </html>
