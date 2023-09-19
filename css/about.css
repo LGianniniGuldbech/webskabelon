@@ -3,6 +3,11 @@ body
 	background-color: papayawhip;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px;
+	background: linear-gradient(
+        60deg,
+        rgba(84,58,183,1) 0%,
+        rgba(0,172,193,1) 100%
+    );
 }
 
 img{
@@ -10,9 +15,12 @@ img{
 }
 
 tr:nth-child(even) {
-	background-color: #f2f2f2;
+	background-color: powderblue;
   }
 
+tr:nth-child(odd) {
+	background-color: rgb(176, 189, 230);
+  }
 
 .topnav {
 	display: grid;

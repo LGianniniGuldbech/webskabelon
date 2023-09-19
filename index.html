@@ -8,7 +8,6 @@
 <body>
         <!--BØLGERNE I BUNDEN AF HJEMMESIDEN ER LAVET FRA EN YOUTUBEVIDEO. DEN KAN TILGÅES HER: https://youtu.be/2dPISFndyKg?si=Aat-g-igFD8JYh3L-->
     <div class="header">
-
       
         <!--indhold før bølgen-->
         <center>
@@ -26,95 +25,92 @@
           <h1>Lucas' hjemmeside </h1>
             <br>
     
-    <h2>Countdown til studietur</h2>
+            
+            <h2>Countdown til efterårsferie 2023</h2>
+            <p id="demo2"></p>
+            
+            <script>
+              var countDownDate2 = new Date("Oct 13, 2023 15:30:00").getTime();
     
-    <!--Til studietur start-->
-    <p id="demo"></p>
-    
-    <script>
-    var countDownDate = new Date("Feb 26, 2024 8:15:00").getTime();
-    
-    var x = setInterval(function() {
-    
-      var now = new Date().getTime();
-    
-      var distance = countDownDate - now;
-
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ";
-    
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "STUDIETUR STARTET";
-      }
-    }, 1000);
-    </script>
-    
-    <h2>Countdown til efterårsferie 2023</h2>
-    <!--Til efterårsferie-->
-    <p id="demo2"></p>
-    
-    <script>
-    var countDownDate2 = new Date("Oct 13, 2023 15:30:00").getTime();
-    
-    var y = setInterval(function() {
-    
-      var now = new Date().getTime();
-    
-      var distance = countDownDate2 - now;
-    
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
+              var y = setInterval(function() {
+                
+                var now = new Date().getTime();
+                
+                var distance = countDownDate2 - now;
+                
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
       document.getElementById("demo2").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-    
+      
       if (distance < 0) {
         clearInterval(y);
-        document.getElementById("demo2").innerHTML = "EFTERÅRSFERIE PÅBEGYNDT";
+        document.getElementById("demo2").innerHTML = "UDLØBET";
       }
     }, 1000);
     </script>
 
+
 <h2>Countdown til vinterferie 2023</h2>
-<!--Til vinterferie-->
 <p id="demo3"></p>
 
 <script>
-var countDownDate3 = new Date("Dec 21, 2023 15:30:00").getTime();
+  var countDownDate3 = new Date("Dec 21, 2023 15:30:00").getTime();
+  
+  var z = setInterval(function() {
+    
+    var now = new Date().getTime();
+    
+    var distance = countDownDate3 - now;
+    
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  document.getElementById("demo3").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  
+  if (distance < 0) {
+    clearInterval(y);
+    document.getElementById("demo3").innerHTML = "UDLØBET";
+  }
+}, 1000);
+</script>
 
-var z = setInterval(function() {
+<h2>Countdown til studietur</h2>
+<p id="demo"></p>
+
+<script>
+  var countDownDate = new Date("Feb 26, 2024 8:15:00").getTime();
+  
+var x = setInterval(function() {
 
   var now = new Date().getTime();
 
-  var distance = countDownDate3 - now;
+  var distance = countDownDate - now;
 
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("demo3").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
 
   if (distance < 0) {
-    clearInterval(y);
-    document.getElementById("demo3").innerHTML = "VINTERFERIE PÅBEGYNDT";
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "UDLØBET";
   }
 }, 1000);
 </script>
 
 <h2>Countdown til dimmisionsdag</h2>
-<!--Til vinterferie-->
 <p id="demo4"></p>
 
 <script>
-  var countDownDate4 = new Date("June, 2025").getTime();
+  var countDownDate4 = new Date("June 25, 2025").getTime();
   
   var w = setInterval(function() {
   
@@ -131,7 +127,7 @@ var z = setInterval(function() {
   
     if (distance < 0) {
       clearInterval(w);
-      document.getElementById("demo4").innerHTML = "DU ER DIMMITERET FRA GYMNASIET";
+      document.getElementById("demo4").innerHTML = "TILLYKKE, DU ER DIMMITERET FRA GYMNASIET";
     }
   }, 1000);
   </script>
