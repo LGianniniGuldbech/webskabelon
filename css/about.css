@@ -25,7 +25,7 @@ tr:nth-child(odd) {
 .topnav {
 	display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	box-shadow: 0px 0px 15px black;
+	box-shadow: 0px 0px 15px rgb(36, 36, 36);
 	background-color: powderblue;
 	overflow: hidden;
   }
