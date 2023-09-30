@@ -39,14 +39,28 @@ body
     font-family: "Lato", sans-serif;
     font-weight: 300px;
     letter-spacing: 2px;
-    font-size: 48;
+    font-size: 32;
+    color: #ededed;
+}
+
+h3{
+	font-family: "Lato", sans-serif;
+    font-weight: 300px;
+	color: #363636;
 }
 
 p{
     font-family: "Lato", sans-serif;
     letter-spacing: 1px;
     font-size: 14;
-    color: #333333;
+    color: #363636;
+}
+
+table{
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+    font-size: 14;
+    color: #363636;
 }
 
 .header{

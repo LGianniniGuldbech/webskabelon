@@ -102,6 +102,11 @@ h1{
     font-weight: 300px;
     letter-spacing: 2px;
     font-size: 32;
+    color: #ededed;
+}
+
+h2{
+    color: #ededed;
 }
 
 p{

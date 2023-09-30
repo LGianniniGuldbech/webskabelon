@@ -38,7 +38,8 @@ body
     font-family: "Lato", sans-serif;
     font-weight: 300px;
     letter-spacing: 2px;
-    font-size: 48;
+    font-size: 32;
+    color: #ededed;
 }
 
 p{
