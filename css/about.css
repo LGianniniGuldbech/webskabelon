@@ -26,19 +26,17 @@ tr:nth-child(odd) {
 	background-color: rgb(176, 189, 230);
   }
 
-.topnav {
+  .topnav {
 	display: grid;
-	justify-self: inherit;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	box-shadow: 0px 0px 15px rgb(36, 36, 36);
+	box-shadow: 0px 0px 15px #363636;
 	background-color: powderblue;
 	overflow: hidden;
   }
   
-  
   .topnav a {
 	float: left;
-	color: #000000;
+	color: #363636;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -47,14 +45,14 @@ tr:nth-child(odd) {
   
   .topnav a:hover {
 	background-color: steelblue;
-	color: #ffffff;
+	color: #ededed;
 
   }
   
 
   .topnav a.active {
 	background-color: steelblue;
-	color: white;
+	color: #ededed;
   }
 
   h1{
