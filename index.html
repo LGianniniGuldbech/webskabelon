@@ -7,6 +7,8 @@
 </head>
 <body>
         <!--BØLGERNE I BUNDEN AF HJEMMESIDEN ER LAVET FRA EN YOUTUBEVIDEO. DEN KAN TILGÅES HER: https://youtu.be/2dPISFndyKg?si=Aat-g-igFD8JYh3L-->
+        <!--TEKST GENNERERET AF CHATGPT-->
+        <!--COUNTDOWN FUNDET PÅ W3SCHOOLS-->
     <div class="header">
       
         <!--indhold før bølgen-->
@@ -22,37 +24,37 @@
     
     </img>
     
-          <h1>Lucas' hjemmeside </h1>
-            <br>
+<h1>Lucas' hjemmeside </h1>
+<br>
     
+  <!--COUNTDOWN TIL EFTERÅRSFERIE-->
+  <h2>Countdown til efterårsferie 2023</h2>
+    <p id="demo2"></p>
             
-            <h2>Countdown til efterårsferie 2023</h2>
-            <p id="demo2"></p>
-            
-            <script>
-              var countDownDate2 = new Date("Oct 13, 2023 15:30:00").getTime();
+  <script>
+      var countDownDate2 = new Date("Oct 13, 2023 15:30:00").getTime();
     
-              var y = setInterval(function() {
+      var y = setInterval(function() {
                 
-                var now = new Date().getTime();
+      var now = new Date().getTime();
                 
-                var distance = countDownDate2 - now;
+      var distance = countDownDate2 - now;
                 
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
                 
-      document.getElementById("demo2").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    document.getElementById("demo2").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
       
-      if (distance < 0) {
-        clearInterval(y);
-        document.getElementById("demo2").innerHTML = "UDLØBET";
-      }
-    }, 1000);
-    </script>
+    if (distance < 0) {
+      clearInterval(y);
+      document.getElementById("demo2").innerHTML = "UDLØBET";
+    }
+   }, 1000);
+  </script>
 
-
+<!--COUNTDOWN TIL VINTERFERIE-->
 <h2>Countdown til vinterferie 2023</h2>
 <p id="demo3"></p>
 
@@ -79,6 +81,7 @@
 }, 1000);
 </script>
 
+<!--COUNTDOWN TIL STUDIETUR-->
 <h2>Countdown til studietur</h2>
 <p id="demo"></p>
 
@@ -106,6 +109,7 @@ var x = setInterval(function() {
 }, 1000);
 </script>
 
+<!--COUNTDOWN TIL DIMMISIONSDAG-->
 <h2>Countdown til dimmisionsdag</h2>
 <p id="demo4"></p>
 
