@@ -3,18 +3,13 @@ body
 	background-color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px;
-    font-size: 17px;
-}
-
-.maps{
-    box-shadow: 0px 15px 20px #363636;
 }
 
 .topnav {
 	display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	box-shadow: 0px 0px 15px #363636;
-	background-color: rgb(215, 215, 215);
+	background-color: rgb(72, 120, 86);
 	overflow: hidden;
   }
   
@@ -28,13 +23,14 @@ body
   }
   
   .topnav a:hover {
-	background-color: rgb(82, 82, 82);
+	background-color: rgb(19, 68, 31);
 	color: #ededed;
+
   }
   
 
   .topnav a.active {
-	background-color: rgb(82, 82, 82);
+	background-color: rgb(19,68,31);
 	color: #ededed;
   }
 
@@ -46,43 +42,24 @@ body
     color: #ededed;
 }
 
-h3{
-	font-family: "Lato", sans-serif;
-    font-weight: 300px;
-	color: #363636;
-}
-
 p{
     font-family: "Lato", sans-serif;
     letter-spacing: 1px;
     font-size: 14;
-    color: #363636;
-}
-
-table{
-    font-family: "Lato", sans-serif;
-    letter-spacing: 1px;
-    font-size: 14;
-    color: #363636;
+    color: #333333;
 }
 
 .header{
     position: relative;
     text-align: center;
     background: linear-gradient(
-        140deg,
-        rgb(215, 215, 215) 0%,
-        rgb(82, 82, 82) 100%
+        240deg,
+        rgb(0, 0, 0) 0%,
+        rgb(23, 60, 30) 100%
     );
     color: white;
 }
 
-.inner-header{
-    height: 65vh;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
 
 .flex{
     /*flexbox for caontainer*/
