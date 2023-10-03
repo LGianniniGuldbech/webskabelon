@@ -37,9 +37,9 @@
               <h4><b><a href="https://museum.skoda-auto.com/" target="_blank">Škoda Auto Fabrik</a></b></h4>
               <p>At besøge Škoda i Tjekkiet er <br>
                 afgørende for at forstå Skodas, <br>
-                men også Tjekkiets, fremragende <br>
-                ingeniørarbejde. Det giver indblik <br>
-                i avanceret bilproduktion, <br>
+                men også Tjekkiets, fantastiske <br>
+                ingeniørarbejde. Dette giver <br>
+                indblik i avanceret <br>bilproduktion, 
                 innovation og <br> 
                 bæredygtighedspraksis. <br>
                 Oplevelsen styrker tilliden til<br>
@@ -102,7 +102,7 @@
             <div class="container">
               <h4><b><a href="https://www.prag.dk/omrader/karlsbroen/" target="_blank">Karlsbroen (Karluv Most)</a></b></h4>
               <p>Det er vigtigt at besøge <br>Karlsbroen
-                i Tjekkiet på grund af<br> dens historiske
+                i Tjekkiet på grund <br>af dens historiske
                 betydning og <br>bemærkelsesværdige
                 arkitektur. <br>Beliggende tæt på
                 Prags borg, <br>giver det en enestående
@@ -225,12 +225,11 @@
                   <p>Det er vigtigt at besøge Det <br> 
                     Dansende Hus i Tjekkiet på <br>grund
                     af dets unikke <br>arkitektoniske
-                    design, der bryder<br> med konventionen.
-                    Bygningen <br>viser en fusion af
-                    kreativitet og<br> modernisme, hvilket
-                    gør den til <br>en kunstnerisk og
-                    arkitektonisk <br>oplevelse og et symbol
-                    på <br>Prags kreative sjæl.<br></p>
+                    design, der <br> bryder med konventionen. <br>
+                    Bygningen viser en fusion af <br>
+                    kreativitet og modernisme, <br>
+                    hvilket gør den til en artistisk <br>og arkitektonisk
+                    oplevelse.<br><br></p>
             </td>
     </tr>
     </table>

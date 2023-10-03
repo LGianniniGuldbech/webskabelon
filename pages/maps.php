@@ -10,8 +10,9 @@
 <body>
 	<!--BØLGERNE I BUNDEN AF HJEMMESIDEN ER LAVET FRA EN YOUTUBEVIDEO. DEN KAN TILGÅES HER: https://youtu.be/2dPISFndyKg?si=Aat-g-igFD8JYh3L-->
     <!--TEKST GENNERERET AF CHATGPT-->
+	
+	<!--INDHOLD FØR BØLGEN-->
 	<div class="header">
-		<!--INDHOLD FØR BØLGEN-->
 		<div class="topnav">
 			<a href="../index.php">Hjem</a>
 			<a class="active" href="">Kort</a>
@@ -23,6 +24,7 @@
 		
 		<h1>Kort over Prag og dets historie</h1>
 	
+	<!--Kort-->
 	<iframe class = maps src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d327861.93682675745!2d14.465623899999999!3d50.05966965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b939c0970798b%3A0x400af0f66164090!2sPrag%2C%20Tjekkiet!5e0!3m2!1sda!2sdk!4v1693823461572!5m2!1sda!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<br><br>
 

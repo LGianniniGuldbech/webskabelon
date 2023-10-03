@@ -11,10 +11,10 @@ setcookie($cookie_name, $cookie_value, time() + 60, "/"); // 60 = 1 minute
     <title>Min hjemmeside</title>
     <link rel="stylesheet" href="css/cookies.css" /></head>
 <body>
-
-<div class="header">
+<!--BØLGERNE I BUNDEN AF HJEMMESIDEN ER LAVET FRA EN YOUTUBEVIDEO. DEN KAN TILGÅES HER: https://youtu.be/2dPISFndyKg?si=Aat-g-igFD8JYh3L-->
 
 <!--INDHOLD FØR BØLGEN-->
+<div class="header">
 <center>
         <div class="topnav">
             <a href="index.php">Hjem</a>
@@ -39,6 +39,8 @@ else {
    echo "Value is: " . $_COOKIE[$cookie_name];
 }
 ?>
+<p><strong>Note:</strong> You might have to reload the page to see the value of the cookie.</p>
+
 
         <!--waves container-->
         <div>

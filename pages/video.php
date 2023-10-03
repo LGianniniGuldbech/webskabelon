@@ -22,7 +22,7 @@
 		<a class="active" href="">Video</a>
 		<a href="../pages/wishes.php">Ønsker</a>
 		<a href="../pages/about.php">Om mig</a>
-		<a href="../cookies.php">Hjem</a>
+		<a href="../cookies.php">Cookies</a>
 		
 	</div>
 	

@@ -16,7 +16,6 @@
     </style>
 <body>
     <!--BØLGERNE I BUNDEN AF HJEMMESIDEN ER LAVET FRA EN YOUTUBEVIDEO. DEN KAN TILGÅES HER: https://youtu.be/2dPISFndyKg?si=Aat-g-igFD8JYh3L-->
-    <!--TEKST GENNERERET AF CHATGPT-->
     <div class="table">
         <div class="topnav">
             <a href="../index.php">Hjem</a>
@@ -35,76 +34,74 @@
             
             <div text>
             <tr>
-                <td>Navn</td>
-                <td>Lucas Giannini Guldbech</td>
+                <td><strong>&nbsp&nbspNavn</strong></td>
+                <td><br>Lucas Giannini Guldbech<br><br></td>
             </tr>
             
             <tr>
-                <td>Kaldenavne</td>
-                <td>Gianni, Lucky Ass, Luc, Lucanus</td>
+                <td><strong>&nbsp&nbspKaldenavne</strong></td>
+                <td><br>Gianni, Lucky Ass, Luc, Lucanus<br><br></td>
             </tr>
             
             <tr>
-                <td>Fødselsdagsdato  </td>
-                <td>29. November 2006</td>
+                <td><strong>&nbsp&nbspFødselsdagsdato</strong></td>
+                <td><br>29. November 2006<br><br></td>
             </tr>
 
             <tr>
-                <td>Årgang</td>
-                <td>Folkeskole - 2012/2022, Gymnasie - 2022/2025</td>
+                <td><strong>&nbsp&nbspÅrgang</strong></td>
+                <td><br>Folkeskole - 2012/2022, Gymnasie - 2022/2025<br><br></td>
             </tr>
     
             <tr>
-                <td>Hvor voksede jeg op?</td>
-                <td>Ballerup</td>
+                <td><strong>&nbsp&nbspHvor voksede jeg op?</strong></td>
+                <td><br>Ballerup<br><br></td>
+            </tr>
+    
+            <tr>                                <!-- &nbsp = whitespace -->
+                <td><strong>&nbsp&nbspHobby på nuværende tidspunkt &nbsp&nbsp&nbsp&nbsp&nbsp</strong></td>
+                <td><br>Computerspil med vennerne, spille musik, tage billeder, web- og appdesign<br><br></td>
             </tr>
     
             <tr>
-                <td>Hobby på nuværende tidspunkt</td>
-                <td>Computerspil med vennerne, spille musik, tage billeder, web- og appdesign</td>
+                <td><strong>&nbsp&nbspInteresser</strong></td>
+                <td><br>Musik, kameraer og billeder, computerspil og computere, teknologi, <br>arkitektur, lyde og bevægelser, 3D-printere og -programmer, <br>laserskærere, bygge modeller og ting, at spille bordtennis, badminton eller volleyball, &nbsp&nbsp<br>samt at se fodbold og lave mad<br><br></td>
             </tr>
     
             <tr>
-                <td>Interesser</td>
-                <td>Musik, kameraer og billeder, computerspil og computere, teknologi, <br>arkitektur, lyde og bevægelser, 3D-printere og -programmer, <br>laserskærere, bygge modeller og ting, at spille bordtennis, badminton eller volleyball, <br>samt at se fodbold og lave mad</td>
+                <td><strong>&nbsp&nbspStørste bedrift</strong></td>
+                <td><br>Være god til at spille musik<br><br></td>
             </tr>
     
             <tr>
-                <td>Største bedrift</td>
-                <td>Være god til at spille musik</td>
+                <td><strong>&nbsp&nbspFremtidsplaner for nu</strong></td>
+                <td><br>Gymnasie → Universitet → Civilingeniør - Lyd og akustisk teknologi <br> → Godt betalende job → Hus, bil og kæledyr<br><br></td>
             </tr>
     
             <tr>
-                <td>Fremtidsplaner for nu</td>
-                <td>Gymnasie → Universitet → Civilingeniør - Lyd og akustisk teknologi <br> → Godt betalende job → Hus, bil og kæledyr</td>
+                <td><strong>&nbsp&nbspLivret</strong></td>
+                <td><br>Sushi eller lignende<br><br></td>
             </tr>
     
             <tr>
-                <td>Livret</td>
-                <td>Sushi eller lignende</td>
+                <td><strong>&nbsp&nbspDet bedste jeg ved</strong></td>
+                <td><br>Gå i dybten med et projekt jeg interesserer mig for sammen med vennerne<br><br></td>
             </tr>
     
             <tr>
-                <td>Det bedste jeg ved</td>
-                <td>Gå i dybten med et projekt jeg interesserer mig for sammen med vennerne</td>
+                <td><strong>&nbsp&nbspYndlingscitat</strong></td>
+                <td><br>"Life sucks, then you die" <br> - Stephen King<br><br></td>
             </tr>
     
             <tr>
-                <td>Yndlingscitat</td>
-                <td>"Life sucks, then you die" <br> - Stephen King</td>
+                <td><strong>&nbsp&nbspBedste Rejsemål</strong></td>
+                <td><br>Island<br><br></td>
             </tr>
     
             <tr>
-                <td>Bedste Rejsemål</td>
-                <td>Island</td>
-            </tr>
-    
-            <tr>
-                <td>4 yndlingsnumre for tiden</td>
-                <td>Layla - Eric Clapton (Orchestral Version)<br>
-                Kill the noise - Papa Roach<br>
-                Eyes on Fire - Blue Foundation<br>
-                Beastly - VULFPECK</td>
+                <td><strong>&nbsp&nbspTo yndlingsnumre for tiden</strong></td>
+                <td><br><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1iTv8aODCR2wNWfNj7dK0Y?utm_source=generator&theme=0" width="49%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2DyDyOW1hRYFFaMhBCAHJ9?utm_source=generator&theme=0" width="49%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><br></td>
             </tr>
     
             </div>

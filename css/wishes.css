@@ -3,9 +3,13 @@
 body
 {
 	background-color: white;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Quicksand', sans-serif;
+    font-weight: 300px;
+    letter-spacing: 1px;
+    font-size: 17;
+    color: #ededed;
 	margin: 0px;
-  display: grid;
+    display: grid;
 }
 
 a:link {
@@ -93,16 +97,16 @@ a:link {
     h4{
         font-family: 'EB Garamond', serif;
         font-weight: 300px;
-        letter-spacing: 1px;
-        font-size: 22;
+        letter-spacing: 1.5px;
+        font-size: 26;
         color: #363636;
     }
     
     p{
         font-family: 'Quicksand', sans-serif;
         font-weight: 300px;
-        letter-spacing: 1px;
-        font-size: 46;
+        letter-spacing: 0.76px;
+        font-size: 26;
         color: #363636;
     }
 

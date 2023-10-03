@@ -7,7 +7,6 @@
 </head>
 <body>
         <!--BØLGERNE I BUNDEN AF HJEMMESIDEN ER LAVET FRA EN YOUTUBEVIDEO. DEN KAN TILGÅES HER: https://youtu.be/2dPISFndyKg?si=Aat-g-igFD8JYh3L-->
-        <!--TEKST GENNERERET AF CHATGPT-->
         <!--COUNTDOWN FUNDET PÅ W3SCHOOLS-->
     <div class="header">
       
@@ -44,7 +43,7 @@
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
                 
-    document.getElementById("demo2").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    document.getElementById("demo2").innerHTML = days + "d " + hours + "t " + minutes + "m " + seconds + "s ";
       
     if (distance < 0) {
       clearInterval(y);
@@ -71,7 +70,7 @@
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   
-  document.getElementById("demo3").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  document.getElementById("demo3").innerHTML = days + "d " + hours + "t " + minutes + "m " + seconds + "s ";
   
   if (distance < 0) {
     clearInterval(y);
@@ -98,7 +97,7 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("demo").innerHTML = days + "d " + hours + "t "
   + minutes + "m " + seconds + "s ";
 
   if (distance < 0) {
@@ -126,34 +125,15 @@ var x = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   
-    document.getElementById("demo4").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    document.getElementById("demo4").innerHTML = days + "d " + hours + "t " + minutes + "m " + seconds + "s ";
   
     if (distance < 0) {
       clearInterval(w);
       document.getElementById("demo4").innerHTML = "TILLYKKE, DU ER DIMMITERET FRA GYMNASIET";
     }
   }, 1000);
-  </script>
   
-  <br>
-  <br>
-  <script>
-    function Updatedata(){
-      var datoer = [new Date("")]
-    }
-
-    </script>
-
-
-
-
-
-
-
-
-
-
-
+</script>
 
     <br>
     <br>
@@ -210,9 +190,8 @@ var x = setInterval(function() {
     </svg>
     </div>
     </div>
-    <!--content-->
-    
-    
+
+    <!--INDHOLD PÅ BØLGEN-->
     <div class="content flex">
       <p>Lucas Giannini Guldbech©</p>
     </div>
