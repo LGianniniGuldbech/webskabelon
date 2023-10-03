@@ -22,6 +22,7 @@
 		<a class="active" href="../webskabelon/pages/video.php">Tilbage til Video</a>
 		<a href="../webskabelon/pages/wishes.php">Ønsker</a>
 		<a href="../webskabelon/pages/about.php">Om mig</a>
+		<a href="../cookies.php">Cookies</a>
 		
 	</div>
 	

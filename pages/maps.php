@@ -18,6 +18,7 @@
 			<a href="../pages/video.php">Video</a>
 			<a href="../pages/wishes.php">Ønsker</a>
 			<a href="../pages/about.php">Om mig</a>
+			<a href="../cookies.php">Cookies</a>
 		</div>
 		
 		<h1>Kort over Prag og dets historie</h1>
@@ -72,7 +73,7 @@
 
 <table>
 	<tr>
-		<caption><h3>Prags historie</h3></caption>
+		<caption><h2>Prags historie</h2></caption>
 	</tr>
 	<tr>
 		<td>Prag, Prag, Prag... Prags historie er som en åben bog, hvor hvert kapitel har bidraget til byens unikke karakter. Byens rødder går tilbage til det <br>

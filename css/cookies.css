@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 body
 {
 	background-color: white;
@@ -7,9 +9,12 @@ body
 
 .topnav {
 	display: grid;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700px;
+    font-size: 42;
     grid-template-columns: repeat(6, 1fr);
 	box-shadow: 0px 0px 15px #363636;
-	background-color: powderblue;
+	background-color: #b8a179;
 	overflow: hidden;
   }
   
@@ -23,43 +28,45 @@ body
   }
   
   .topnav a:hover {
-	background-color: steelblue;
+	background-color: #645f4b;
 	color: #ededed;
 
   }
   
-
   .topnav a.active {
-	background-color: steelblue;
+	background-color: #645f4b;
 	color: #ededed;
   }
-
-h1{
-    font-family: "Lato", sans-serif;
-    font-weight: 300px;
+  h1{
+    font-family: 'EB Garamond', serif;
+    font-weight: 500px;
     letter-spacing: 2px;
-    font-size: 32;
+    font-size: 42;
     color: #ededed;
 }
 
 h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    font-size: 22;
     color: #ededed;
 }
 
 p{
-    font-family: "Lato", sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300px;
     letter-spacing: 1px;
     font-size: 17;
-    color: #333333;
+    color: #363636;
 }
-
 .header{
     position: relative;
     text-align: center;
     background: linear-gradient(
         60deg,
-        rgba(84,58,183,1) 0%,
-        rgba(0,172,193,1) 100%
+        #c8aa91 0%,
+        #cd993c 100%
     );
     color: white;
 }

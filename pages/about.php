@@ -24,6 +24,7 @@
             <a href="../pages/video.php">Video</a>
             <a href="../pages/wishes.php">Ønsker</a>
             <a class="active" href="">Om mig</a>
+            <a href="../cookies.php">Cookies</a>
         </div>
         <h1>Min blå bog</h1>
 

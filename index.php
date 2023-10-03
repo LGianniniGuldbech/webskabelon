@@ -25,7 +25,6 @@
     </img>
     
 <h1>Lucas' hjemmeside </h1>
-<br>
     
   <!--COUNTDOWN TIL EFTERÅRSFERIE-->
   <h2>Countdown til efterårsferie 2023</h2>
@@ -135,9 +134,27 @@ var x = setInterval(function() {
     }
   }, 1000);
   </script>
-    
-    <br>
-    <br>
+  
+  <br>
+  <br>
+  <script>
+    function Updatedata(){
+      var datoer = [new Date("")]
+    }
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
     <br>
     <br>
     

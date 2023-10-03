@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 body
 {
 	background-color: white;
@@ -5,36 +7,11 @@ body
 	margin: 0px;
 }
 
-.topnav {
-	display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	box-shadow: 0px 0px 15px #363636;
-	background-color: rgb(162, 205, 174);
-	overflow: hidden;
-  }
-  
-  .topnav a {
-	float: left;
-	color: #363636;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-  }
-  
-  .topnav a:hover {
-	background-color: rgb(88, 139, 101);
-	color: #ededed;
+.video{
+    box-shadow: 0px 15px 20px #363636;
+}
 
-  }
-  
-
-  .topnav a.active {
-	background-color: rgb(88, 139, 101);
-	color: #ededed;
-  }
-
-  h1{
+h1{
     font-family: "Lato", sans-serif;
     font-weight: 300px;
     letter-spacing: 2px;
@@ -46,19 +23,51 @@ a:link {
     color: #ededed;
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:visited {
-    color: rgb(4, 56, 0);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: black;
     background-color: transparent;
     text-decoration: none;
+}
+
+.topnav {
+    display: grid;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700px;
+    font-size: 42;
+    grid-template-columns: repeat(6, 1fr);
+    box-shadow: 0px 0px 15px #363636;
+    background-color: rgb(162, 205, 174);
+    overflow: hidden;
   }
+  
+  .topnav a {
+    float: left;
+    color: #363636;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(88, 139, 101);
+    color: #ededed;
+  }
+
+  .topnav a.active {
+    background-color: rgb(88, 139, 101);
+    color: #ededed;
+  }
+
+  h1{
+    font-family: 'EB Garamond', serif;
+    font-weight: 500px;
+    letter-spacing: 2px;
+    font-size: 42;
+    color: #ededed;
+}
 
 p{
     font-family: "Lato", sans-serif;
