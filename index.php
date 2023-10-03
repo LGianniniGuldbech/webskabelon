@@ -15,11 +15,11 @@
         <center>
         <div class="topnav">
             <a class="active" href="">Hjem</a>
-            <a href="pages/maps.html">Kort</a>
-            <a href="pages/video.html">Video</a>
-            <a href="pages/wishes.html">Ønsker</a>
-            <a href="pages/about.html">Om mig</a>
-    
+            <a href="pages/maps.php">Kort</a>
+            <a href="pages/video.php">Video</a>
+            <a href="pages/wishes.php">Ønsker</a>
+            <a href="pages/about.php">Om mig</a>
+            <a href="cookies.php">Cookies</a>
         </div>
     
     </img>

@@ -19,10 +19,10 @@
     <!--TEKST GENNERERET AF CHATGPT-->
     <div class="table">
         <div class="topnav">
-            <a href="../index.html">Hjem</a>
-            <a href="../pages/maps.html">Kort</a>
-            <a href="../pages/video.html">Video</a>
-            <a href="../pages/wishes.html">Ønsker</a>
+            <a href="../index.php">Hjem</a>
+            <a href="../pages/maps.php">Kort</a>
+            <a href="../pages/video.php">Video</a>
+            <a href="../pages/wishes.php">Ønsker</a>
             <a class="active" href="">Om mig</a>
         </div>
         <h1>Min blå bog</h1>

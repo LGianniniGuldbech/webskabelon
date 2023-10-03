@@ -13,11 +13,11 @@
 	<div class="header">
 		<!--INDHOLD FØR BØLGEN-->
 		<div class="topnav">
-			<a href="../index.html">Hjem</a>
+			<a href="../index.php">Hjem</a>
 			<a class="active" href="">Kort</a>
-			<a href="../pages/video.html">Video</a>
-			<a href="../pages/wishes.html">Ønsker</a>
-			<a href="../pages/about.html">Om mig</a>
+			<a href="../pages/video.php">Video</a>
+			<a href="../pages/wishes.php">Ønsker</a>
+			<a href="../pages/about.php">Om mig</a>
 		</div>
 		
 		<h1>Kort over Prag og dets historie</h1>

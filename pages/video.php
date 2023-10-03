@@ -3,7 +3,7 @@
 <head>
 	<center>
 	
-	<link rel="stylesheet" type="text/css" href="../webskabelon/css/SLOPE.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/video.css"/>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Min hjemmeside - video</title>
@@ -17,21 +17,24 @@
 	
 	<!--INDHOLD FØR BØLGEN-->
 	<div class="topnav">
-		<a href="../webskabelon/index.html">Hjem</a>
-		<a href="../webskabelon/pages/maps.html">Kort</a>
-		<a class="active" href="../webskabelon/pages/video.html">Tilbage til Video</a>
-		<a href="../webskabelon/pages/wishes.html">Ønsker</a>
-		<a href="../webskabelon/pages/about.html">Om mig</a>
+		<a href="../index.php">Hjem</a>
+		<a href="../pages/maps.php">Kort</a>
+		<a class="active" href="">Video</a>
+		<a href="../pages/wishes.php">Ønsker</a>
+		<a href="../pages/about.php">Om mig</a>
 		
 	</div>
 	
 </img>
 
-<h1>SLOPE</h1>
+<div class = "easteregg">
+	<a href="../easteregg.php"><h1>Video</h1></a>
+</div>
 
 <br>
 <center>
-	<iframe src="https://y8.com/embed/slope" scrolling="no" style="width: 965px; height: 605px; border: 0; margin: 0; padding: 0;"> </iframe>
+	<iframe width="941" height="529" src="https://www.youtube.com/embed/91ooFzlKlto" title="the most recognizable instrument blublub in video game history" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<!--<iframe src="https://y8.com/embed/slope" scrolling="no" style="width: 948px; height: 605px; border: 0; margin: 0; padding: 0;"> </iframe>-->
 </center>
 
 <!--waves container-->
