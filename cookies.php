@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 $cookie_name = "user";
-$cookie_value = "John Doe";
+$cookie_value = "<p>John Doe</p>";
 setcookie($cookie_name, $cookie_value, time() + 60, "/"); // 60 = 1 minute
 ?>
 <html>
@@ -32,11 +32,11 @@ setcookie($cookie_name, $cookie_value, time() + 60, "/"); // 60 = 1 minute
     
 <?php
 if(!isset($_COOKIE[$cookie_name])) {
-    echo "Cookie named '" . $cookie_name . "' is not set!";
+    echo "<p>Cookie named '" . $cookie_name . "' is not set!</p>";
 }
 else {
-   echo "Cookie '" . $cookie_name . "' is set!<br>";
-   echo "Value is: " . $_COOKIE[$cookie_name];
+   echo "<p>Cookie '" . $cookie_name . "' is set!<br></p>";
+   echo "<p>Value is: </p>" . $_COOKIE[$cookie_name];
 }
 ?>
 <p><strong>Note:</strong> You might have to reload the page to see the value of the cookie.</p>

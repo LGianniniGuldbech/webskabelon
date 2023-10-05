@@ -80,7 +80,7 @@
 </script>
 
 <!--COUNTDOWN TIL STUDIETUR-->
-<h2>Countdown til studietur</h2>
+<h2>Countdown til studietur 2024</h2>
 <p id="demo"></p>
 
 <script>
@@ -108,7 +108,7 @@ var x = setInterval(function() {
 </script>
 
 <!--COUNTDOWN TIL DIMMISIONSDAG-->
-<h2>Countdown til dimmisionsdag</h2>
+<h2>Countdown til dimmisionsdag 2025</h2>
 <p id="demo4"></p>
 
 <script>
