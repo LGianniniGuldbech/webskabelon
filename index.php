@@ -27,113 +27,131 @@
     
   <!--COUNTDOWN TIL EFTERÅRSFERIE-->
   <h2>Countdown til efterårsferie 2023</h2>
-    <p id="demo2"></p>
+    <p id="demo"></p>
             
   <script>
-      var countDownDate2 = new Date("Oct 13, 2023 15:30:00").getTime();
+      var countDownDate0 = new Date("Oct 13, 2023 15:30:00").getTime();
     
-      var y = setInterval(function() {
+      var y = setInterval(updateTimer0, 1000);
+
+      function updateTimer0() {
                 
-      var now = new Date().getTime();
-                
-      var distance = countDownDate2 - now;
-      
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                
-    document.getElementById("demo2").innerHTML = days + "d " + hours + "t " + minutes + "m " + seconds + "s ";
-      
-    if (distance < 0) {
-      clearInterval(y);
-      document.getElementById("demo2").innerHTML = "UDLØBET";
+        var now = new Date().getTime();
+                  
+        var distance = countDownDate0 - now;
+        
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                  
+      document.getElementById("demo").innerHTML = days + "d " + hours + "t " + minutes + "m " + seconds + "s ";
+        
+      if (distance < 0) {
+        clearInterval(y);
+        document.getElementById("demo").innerHTML = "UDLØBET";
+      }
     }
-   }, 1000);
+
+    updateTimer0();
+  
   </script>
 
 <!--COUNTDOWN TIL VINTERFERIE-->
-<h2>Countdown til vinterferie 2023</h2>
-<p id="demo3"></p>
+<h2>Countdown til Juleaftensdag 2023</h2>
+<p id="demo1"></p>
 
 <script>
-  var countDownDate3 = new Date("Dec 21, 2023 15:30:00").getTime();
-  
-  var z = setInterval(function() {
+      var countDownDate1 = new Date("Dec 24, 2023").getTime();
     
-    var now = new Date().getTime();
-    
-    var distance = countDownDate3 - now;
-    
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      var a = setInterval(updateTimer1, 1000);
+
+      function updateTimer1() {
+                
+        var now = new Date().getTime();
+                  
+        var distance = countDownDate1 - now;
+        
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                  
+      document.getElementById("demo1").innerHTML = days + "d " + hours + "t " + minutes + "m " + seconds + "s ";
+        
+      if (distance < 0) {
+        clearInterval(a);
+        document.getElementById("demo1").innerHTML = "UDLØBET";
+      }
+    }
+
+    updateTimer1();
   
-  document.getElementById("demo3").innerHTML = days + "d " + hours + "t " + minutes + "m " + seconds + "s ";
-  
-  if (distance < 0) {
-    clearInterval(y);
-    document.getElementById("demo3").innerHTML = "UDLØBET";
-  }
-}, 1000);
-</script>
+  </script>
 
 <!--COUNTDOWN TIL STUDIETUR-->
 <h2>Countdown til studietur 2024</h2>
-<p id="demo"></p>
+<p id="demo2"></p>
 
 <script>
-  var countDownDate = new Date("Feb 26, 2024 8:15:00").getTime();
+      var countDownDate2 = new Date("Feb 16, 2024").getTime();
+    
+      var b = setInterval(updateTimer2, 1000);
+
+      function updateTimer2() {
+                
+        var now = new Date().getTime();
+                  
+        var distance = countDownDate2 - now;
+        
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                  
+      document.getElementById("demo2").innerHTML = days + "d " + hours + "t " + minutes + "m " + seconds + "s ";
+        
+      if (distance < 0) {
+        clearInterval(b);
+        document.getElementById("demo2").innerHTML = "UDLØBET";
+      }
+    }
+
+    updateTimer2();
   
-var x = setInterval(function() {
-
-  var now = new Date().getTime();
-
-  var distance = countDownDate - now;
-
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  document.getElementById("demo").innerHTML = days + "d " + hours + "t "
-  + minutes + "m " + seconds + "s ";
-
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "UDLØBET";
-  }
-}, 1000);
-</script>
+  </script>
 
 <!--COUNTDOWN TIL DIMMISIONSDAG-->
 <h2>Countdown til dimmisionsdag 2025</h2>
-<p id="demo4"></p>
+<p id="demo3"></p>
 
 <script>
-  var countDownDate4 = new Date("June 25, 2025").getTime();
-  
-  var w = setInterval(function() {
-  
-    var now = new Date().getTime();
-  
-    var distance = countDownDate4 - now;
-  
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-    document.getElementById("demo4").innerHTML = days + "d " + hours + "t " + minutes + "m " + seconds + "s ";
-  
-    if (distance < 0) {
-      clearInterval(w);
-      document.getElementById("demo4").innerHTML = "TILLYKKE, DU ER DIMMITERET FRA GYMNASIET";
+      var countDownDate3 = new Date("Jun 25, 2025").getTime();
+    
+      var c = setInterval(updateTimer3, 1000);
+
+      function updateTimer3() {
+                
+        var now = new Date().getTime();
+                  
+        var distance = countDownDate3 - now;
+        
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                  
+      document.getElementById("demo3").innerHTML = days + "d " + hours + "t " + minutes + "m " + seconds + "s ";
+        
+      if (distance < 0) {
+        clearInterval(c);
+        document.getElementById("demo3").innerHTML = "TILLYKKE, DU ER DIMMITERET FRA GYMNASIET!";
+      }
     }
-  }, 1000);
+
+    updateTimer3();
   
-</script>
+  </script>
 
     <br>
     <br>

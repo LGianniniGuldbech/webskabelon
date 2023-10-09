@@ -65,7 +65,7 @@
     
             <tr>
                 <td><strong>&nbsp&nbspInteresser</strong></td>
-                <td><br>Musik, kameraer og billeder, computerspil og computere, teknologi, <br>arkitektur, lyde og bevægelser, 3D-printere og -programmer, <br>laserskærere, bygge modeller og ting, at spille bordtennis, badminton eller volleyball, &nbsp&nbsp<br>samt at se fodbold og lave mad<br><br></td>
+                <td><br>Musik, kameraer og billeder, computerspil og computere, teknologi, <br>arkitektur, 3D-printere og -programmer, <br>laserskærere, bygge modeller og ting, at spille bordtennis, badminton eller volleyball, &nbsp&nbsp<br>samt at se fodbold og lave mad<br><br></td>
             </tr>
     
             <tr>

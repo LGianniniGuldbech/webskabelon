@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<?php
-$cookie_name = "user";
-$cookie_value = "<p>John Doe</p>";
-setcookie($cookie_name, $cookie_value, time() + 60, "/"); // 60 = 1 minute
-?>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -26,20 +21,50 @@ setcookie($cookie_name, $cookie_value, time() + 60, "/"); // 60 = 1 minute
         </div>
     
     </img>
-    
+
 <h1>Cookies</h1>
 <br>
     
-<?php
-if(!isset($_COOKIE[$cookie_name])) {
-    echo "<p>Cookie named '" . $cookie_name . "' is not set!</p>";
-}
-else {
-   echo "<p>Cookie '" . $cookie_name . "' is set!<br></p>";
-   echo "<p>Value is: </p>" . $_COOKIE[$cookie_name];
+    <form action="cookies.php" method="post">
+        Enter your name: <input type="text" name="username">
+        <input type="submit" value="Set Cookie">
+    </form>
+
+
+    <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get the username from the form input
+    $username = $_POST["username"];
+
+    // Set a cookie with the user's name
+    setcookie("username", $username, time() + 86400, "/"); // Cookie expires in 1 day
+
+    // Redirect back to the HTML page
+    header("Location: cookies.php");
+    exit;
 }
 ?>
+
+<?php
+if(!isset($_COOKIE["username"])) {
+  echo "Cookie named '" . "username" . "' is not set!";
+} else {
+  echo "Cookie '" . "username" . "' is set!<br>";
+  echo "Dit navn er: " . $_COOKIE["username"];
+}
+?>
+
+
+
+
+
+
+
+
+
 <p><strong>Note:</strong> You might have to reload the page to see the value of the cookie.</p>
+
+
 
 
         <!--waves container-->
