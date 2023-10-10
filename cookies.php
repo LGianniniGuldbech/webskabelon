@@ -24,22 +24,21 @@
 
 <h1>Cookies</h1>
 <br>
-    
+    <div class="farve.php">
     <form action="cookies.php" method="post">
-        Enter your name: <input type="text" name="username">
-        <input type="submit" value="Set Cookie">
+        Skriv dit navn: <input type="text" name="username">
+        <input type="submit" value="Sæt Cookie">
     </form>
 
 
     <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get the username from the form input
+    
     $username = $_POST["username"];
 
-    // Set a cookie with the user's name
-    setcookie("username", $username, time() + 86400, "/"); // Cookie expires in 1 day
+    // cookie udløber dagen after
+    setcookie("username", $username, time() + 86400, "/"); 
 
-    // Redirect back to the HTML page
     header("Location: cookies.php");
     exit;
 }
@@ -47,24 +46,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <?php
 if(!isset($_COOKIE["username"])) {
-  echo "Cookie named '" . "username" . "' is not set!";
+  echo "Cookie er ikke indstillet!";
 } else {
-  echo "Cookie '" . "username" . "' is set!<br>";
-  echo "Dit navn er: " . $_COOKIE["username"];
+  echo "Cookie '" . "username" . "' er sættet!<br>";
+  echo "Værdien er: " . $_COOKIE["username"]; 
 }
 ?>
 
+<p><strong><br>Note:</strong> Du skal muligvis genindlæse siden for at se værdien af cookien.</p>
 
-
-
-
-
-
-
-
-<p><strong>Note:</strong> You might have to reload the page to see the value of the cookie.</p>
-
-
+</div>
 
 
         <!--waves container-->

@@ -94,7 +94,7 @@
 <p id="demo2"></p>
 
 <script>
-      var countDownDate2 = new Date("Feb 16, 2024").getTime();
+      var countDownDate2 = new Date("Feb 16, 2024 6:00:00").getTime();
     
       var b = setInterval(updateTimer2, 1000);
 
