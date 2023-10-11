@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <?php
 if(!isset($_COOKIE["username"])) {
-  echo "Cookie er ikke indstillet!";
+  echo "Ugyldig cookie, cookie kunne ikke indstilles!";
 } else {
   echo "Cookie '" . "username" . "' er sat!<br>";
   echo "Værdien er: " . $_COOKIE["username"]; 
