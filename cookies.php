@@ -48,12 +48,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 if(!isset($_COOKIE["username"])) {
   echo "Cookie er ikke indstillet!";
 } else {
-  echo "Cookie '" . "username" . "' er sættet!<br>";
+  echo "Cookie '" . "username" . "' er sat!<br>";
   echo "Værdien er: " . $_COOKIE["username"]; 
 }
 ?>
 
-<p><strong><br>Note:</strong> Du skal muligvis genindlæse siden for at se værdien af cookien.</p>
+<p><strong><br>Bemærk:</strong> Du skal muligvis genindlæse siden for at se værdien af cookien.</p>
 
 </div>
 

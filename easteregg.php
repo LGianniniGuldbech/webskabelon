@@ -10,8 +10,11 @@
 
 </head>
 <body>
+	<!--FOR AT KOMME IND PÅ EASTEREGG SKAL DER TRYKKES PÅ "Video" UNDER VIDEO. FOR AT GÅ TILBAGE SKAL DER TRYKKES PÅ EN VILKÅRLIG PAGE UNDER MENU.-->
+
+
+
 	<!--BØLGERNE I BUNDEN AF HJEMMESIDEN ER LAVET FRA EN YOUTUBEVIDEO. DEN KAN TILGÅES HER: https://youtu.be/2dPISFndyKg?si=Aat-g-igFD8JYh3L-->
-    <!--TEKST GENNERERET AF CHATGPT-->
 </center>
 <div class="header">
 	
@@ -22,7 +25,7 @@
 		<a class="active" href="../webskabelon/pages/video.php">Tilbage til Video</a>
 		<a href="../webskabelon/pages/wishes.php">Ønsker</a>
 		<a href="../webskabelon/pages/about.php">Om mig</a>
-		<a href="../cookies.php">Cookies</a>
+		<a href="../webskabelon/cookies.php">Cookies</a>
 		
 	</div>
 	

@@ -10,7 +10,11 @@
     <body>
     <!--BØLGERNE I BUNDEN AF HJEMMESIDEN ER LAVET FRA EN YOUTUBEVIDEO. DEN KAN TILGÅES HER: https://youtu.be/2dPISFndyKg?si=Aat-g-igFD8JYh3L-->
     <!--TEKST GENNERERET AF CHATGPT-->
-<div class="header">
+
+
+    <!--OVERSKRIFTERNE ER KLIKBARE-->
+
+    <div class="header">
     <!--INDHOLD FØR BØLGEN-->
     <div class="topnav">
         <a href="../index.php">Hjem</a>

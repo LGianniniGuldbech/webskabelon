@@ -28,6 +28,7 @@
 	
 </img>
 
+<!--FOR AT KOMME IND PÅ EASTEREGG SKAL DER TRYKKES PÅ "Video" UNDER VIDEO. FOR AT GÅ TILBAGE SKAL DER TRYKKES PÅ EN VILKÅRLIG PAGE UNDER MENU.-->
 <div class = "easteregg">
 	<a href="../easteregg.php"><h1>Video</h1></a>
 </div>
