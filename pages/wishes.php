@@ -24,7 +24,9 @@
         <a href="../pages/about.php">Om mig</a>
         <a href="../cookies.php">Cookies</a>
 </div>
-
+<br>
+<br>
+<br>
 <h1>Ønsker til studieturen</h1>
 <center>
     <table>

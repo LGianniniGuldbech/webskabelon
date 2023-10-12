@@ -26,6 +26,10 @@
 		
 	</div>
 	
+	<br>
+<br>
+<br>
+
 </img>
 
 <!--FOR AT KOMME IND PÅ EASTEREGG SKAL DER TRYKKES PÅ "Video" UNDER VIDEO. FOR AT GÅ TILBAGE SKAL DER TRYKKES PÅ EN VILKÅRLIG PAGE UNDER MENU.-->
@@ -33,7 +37,6 @@
 	<a href="../easteregg.php"><h1>Video</h1></a>
 </div>
 
-<br>
 <center>
 
 	<iframe class = "video" width="1103" height="662" src="https://www.youtube.com/embed/DYzT-Pk6Ogw" title="It do go down" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

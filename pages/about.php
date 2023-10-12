@@ -25,6 +25,10 @@
             <a class="active" href="">Om mig</a>
             <a href="../cookies.php">Cookies</a>
         </div>
+        <br>
+        <br>
+        <br>
+        
         <h1>Min blå bog</h1>
 
         <img class="polaroid" src="../images/lucas.png">

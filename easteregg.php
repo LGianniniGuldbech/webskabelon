@@ -30,7 +30,9 @@
 	</div>
 	
 </img>
-
+<br>
+<br>
+<br>
 <h1>SLOPE</h1>
 
 <br>

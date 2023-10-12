@@ -83,6 +83,9 @@ img:hover {
 	box-shadow: 0px 0px 15px #363636;
 	background-color: powderblue;
 	overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
   }
   
   .topnav a {
@@ -199,8 +202,4 @@ p{
     100%{
         transform: translate3d(85px,0,0);
     }
-}
-
-footer{
-    text-align: right;
 }

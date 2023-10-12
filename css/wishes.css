@@ -55,6 +55,9 @@ a:link {
     box-shadow: 0px 0px 15px #363636;
     background-color: rgb(134, 219, 178);
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
     }
     
     .topnav a {

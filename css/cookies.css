@@ -21,6 +21,9 @@ body
 	box-shadow: 0px 0px 15px #363636;
 	background-color: #b8a179;
 	overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
   }
   
   .topnav a {

@@ -22,6 +22,9 @@
     
     </img>
 
+<br>
+<br>
+<br>
 <h1>Cookies</h1>
 <br>
     <div class="farve.php">

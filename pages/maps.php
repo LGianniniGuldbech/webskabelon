@@ -21,7 +21,9 @@
 			<a href="../pages/about.php">Om mig</a>
 			<a href="../cookies.php">Cookies</a>
 		</div>
-		
+		<br>
+		<br>
+		<br>
 		<h1>Kort over Prag og dets historie</h1>
 	
 	<!--Kort-->
