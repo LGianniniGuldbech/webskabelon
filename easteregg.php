@@ -3,7 +3,7 @@
 <head>
 	<center>
 	
-	<link rel="stylesheet" type="text/css" href="../webskabelon/css/SLOPE.css"/>
+	<link rel="stylesheet" type="text/css" href="../Lucas' Hjemmeside/css/SLOPE.css"/>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Min hjemmeside - video</title>
@@ -20,12 +20,12 @@
 	
 	<!--INDHOLD FØR BØLGEN-->
 	<div class="topnav">
-		<a href="../webskabelon/index.php">Hjem</a>
-		<a href="../webskabelon/pages/maps.php">Kort</a>
-		<a class="active" href="../webskabelon/pages/video.php">Tilbage til Video</a>
-		<a href="../webskabelon/pages/wishes.php">Ønsker</a>
-		<a href="../webskabelon/pages/about.php">Om mig</a>
-		<a href="../webskabelon/cookies.php">Cookies</a>
+		<a href="../Lucas' Hjemmeside/index.php">Hjem</a>
+		<a href="../Lucas' Hjemmeside/pages/maps.php">Kort</a>
+		<a class="active" href="../Lucas' Hjemmeside/pages/video.php">Tilbage til Video</a>
+		<a href="../Lucas' Hjemmeside/pages/wishes.php">Ønsker</a>
+		<a href="../Lucas' Hjemmeside/pages/about.php">Om mig</a>
+		<a href="../Lucas' Hjemmeside/cookies.php">Cookies</a>
 		
 	</div>
 	
